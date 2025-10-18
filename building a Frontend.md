@@ -60,3 +60,14 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
   </Routes>  
 </Router>
 ```
+
+
+Install Next.js
+``` cmd
+# install
+npx create-next-app@latest my-next-app --typescript
+
+# dependencies
+npm install -D eslint prettier eslint-config-next @types/react-dom
+
+```

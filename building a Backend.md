@@ -5,7 +5,7 @@ npm install express sqlite3 cors body-parser jsonwebtoken bcryptjs
 npm install --save-dev nodemon
 ```
 
-Install package.json
+Install package.jon
 ```json
  "scripts": {
     "start": "node server.js",
