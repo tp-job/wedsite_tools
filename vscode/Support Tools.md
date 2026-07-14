@@ -1,9 +1,11 @@
+See also: [[Web Tools MOC]]
+
 > ### 🚀 Development Tools
-- **React (Framework)**  
+- **React (Framework)** — see [[React.js]]  
 Built with React’s component-based architecture.  
 👉 Learn more – [React.dev](https://react.dev/)
 
-- **Next.js (Framework)**  
+- **Next.js (Framework)** — see [[Next.js]]  
 Built with Next.js for server-side rendering and static site generation.  
 👉 Learn more – [Next.js](https://nextjs.org/)
 

@@ -1,3 +1,5 @@
+See also: [[Next.js]] · [[React-and-MongoDB]] · [[building a Frontend]] · [[Web Tools MOC]]
+
 > ### 🚀 Tools Used
 React (Framework)
 Built from scratch using React’s component-based architecture.  
@@ -16,7 +18,6 @@ npm create vite@latest
 This will create a new folder called `my-app` with all the necessary files to start your React application.
 
 ### React.js Project Full Structure
-next-project-full-structure
 
 ```
 my-react-app/
@@ -213,5 +214,5 @@ my-fullstack-app/
 │
 ├─ .gitignore
 └─ README.md
-
 ```
+

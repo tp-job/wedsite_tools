@@ -1,15 +1,27 @@
 Build a Backend
+
+See also: [[building a Frontend]] · [[React-and-MongoDB]] · [[command prompt]] · [[Web Tools MOC]]
+
 ```cmd
 npm init -y
+
+# SQLite3
 npm install express sqlite3 cors body-parser jsonwebtoken bcryptjs
+
+# MongoDB
+npm install express mongoose cors body-parser jsonwebtoken bcryptjs
+
+# PostgreSQL
+npm install express pg cors body-parser jsonwebtoken bcryptjs
+
 npm install --save-dev nodemon
 ```
 
 Install package.jon
 ```json
  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
   }
 ```
 
@@ -80,3 +92,33 @@ app.get("/files", (req, res) => {
 app.listen(5000, () => console.log("Server running on port 5000"));
 
 ```
+
+ติดตั้ง `@` alias (จริง ๆ ไม่ต้อง install เพิ่ม แค่ตั้งค่า `vite.config.js`)
+```bash
+npm install --save-dev vite
+```
+
+แก้ไฟล์ `vite.config.js`
+```js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
+import tailwindcss from '@tailwindcss/vite'
+import path from 'path/win32'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+  },
+})
+
+```
+
+number = int(input("number  : ))
+
+for i in range(0, 13)
+	answer = number * i
+	print(f"{number} x {i} = {answer})

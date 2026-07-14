@@ -1,6 +1,8 @@
+See also: [[React.js]] · [[building a Frontend]] · [[Support Tools]] · [[Web Tools MOC]]
+
 > ### 🚀 Tools Used
 Next.js (Framework)
-Built on top of React, Next.js provides a robust framework for building server-side rendered and statically generated web applications.  
+Built on top of [[React.js|React]], Next.js provides a robust framework for building server-side rendered and statically generated web applications.  
 👉 Get Started with Next.js – [nextjs.org](https://nextjs.org/docs/getting-started)
 
 ---

@@ -1,4 +1,7 @@
 Extension for VS Code
+
+See also: [[Web Tools MOC]]
+
 ---
 ![1](https://github.com/user-attachments/assets/f62420f6-711e-4343-990b-e163a41ae98e)
 ![2](https://github.com/user-attachments/assets/278d3298-15b1-4bac-8af4-59e23c631f68)
